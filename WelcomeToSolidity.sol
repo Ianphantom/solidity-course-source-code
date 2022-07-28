@@ -1,13 +1,14 @@
-pragma solidity >= 0.7.0 < 0.9.0;
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity >=0.7.0 <0.9.0;
 
 contract WelcomeToSolidity {
-    constructor() public{
-    }
+    constructor() public {}
 
-    function getResult() public view returns(uint){
-        uint a = 10;
-        uint b = 5;
-        uint result = a + b;
+    function getResult() public view returns (uint256) {
+        uint256 a = 10;
+        uint256 b = 5;
+        uint256 result = a + b;
         return result;
     }
 }
