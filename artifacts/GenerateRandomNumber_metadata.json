@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "range",
+						"type": "uint256"
+					}
+				],
+				"name": "randMod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"cryptographic-functions.sol": "GenerateRandomNumber"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"cryptographic-functions.sol": {
+			"keccak256": "0xd837016789d30ac6df0b26dd39808ffa404abdb4e7c0419861c5130fcaebf89f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://62768f2042269fd8dbb7117a00e65ea73f6d073a42cb025ba8c07435ac1c29fa",
+				"dweb:/ipfs/QmUVRVN81DEjFcA68AukbMPrvcjQwBswyBSCyLtKuZLubm"
+			]
+		}
+	},
+	"version": 1
+}

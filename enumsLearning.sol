@@ -20,7 +20,7 @@ contract Enum {
         return choice;
     }
 
-    function getDefaultChoice() public view returns (uint256) {
+    function getDefaultChoice() public pure returns (uint256) {
         return uint256(defaultChoice);
     }
 }
@@ -44,7 +44,7 @@ contract enumExercise {
         return choice;
     }
 
-    function getDefaultChoice() public view returns (shirtColor) {
+    function getDefaultChoice() public pure returns (shirtColor) {
         return defaultChoice;
     }
 }
