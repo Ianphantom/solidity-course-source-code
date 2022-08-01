@@ -15,4 +15,11 @@ contract test{
         }
         return true;
     }
+
+    function withdrawFunds(uint amount) public returns(bool success){
+        require(balance[msg.sender] >= amount);
+        balance[msg.sender] -= amount;
+        msg.sender.transfer(amount);
+        return true;
+    }
 }
